@@ -89,3 +89,18 @@ li{
     font-size: 19px;
     font-weight: 200;
 }
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-weight: bold;
+        color: #cf9b48;
+        letter-spacing: 5px;
+    }
+    
+    h2{
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 2.5px;
+        text-align: center;
+    }
+}
