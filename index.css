@@ -93,8 +93,9 @@ li{
 @media screen and (max-width: 812px) {
     h1{
         font-weight: bold;
+        font-size: medium;
         color: #cf9b48;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
     }
     
     h2{
