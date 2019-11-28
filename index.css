@@ -100,8 +100,24 @@ li{
     
     h2{
         font-weight: lighter;
+        font-size: 26px;
         color: white;
         letter-spacing: 2.5px;
         text-align: center;
     }
+
+    p{
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 200;
+    }
+
+    li{
+        color: white;
+        text-align: left;
+        font-size: 24px;
+        font-weight: 200;
+    }
+
 }
