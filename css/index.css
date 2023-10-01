@@ -1,0 +1,89 @@
+body,
+html {
+  font-family: 'Source Sans 3', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1,
+.masthead .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1, .masthead .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.btn-about {
+  color: #fff;
+  background-color: #1D809F;
+  border-color: #1D809F;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-about:hover {
+  color: #fff;
+  background-color: #196d87;
+  border-color: #17667f;
+  text-decoration: none;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.social-container {
+  align-items: center;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
